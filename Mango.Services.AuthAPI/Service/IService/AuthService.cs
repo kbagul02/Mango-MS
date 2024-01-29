@@ -40,8 +40,10 @@ namespace Mango.Services.AuthAPI.Service.IService
                 Email = user.Email,
                 PhoneNumber = user.PhoneNumber
             };
+
+            var roles = await _userManager.GetRolesAsync(user);
             //generate token
-            var token = _jwtTokenGenerator.GenerateToken(user);
+            var token = _jwtTokenGenerator.GenerateToken(user,roles);
 
             LoginResponseDto loginResponseDto = new()
             {
