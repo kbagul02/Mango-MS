@@ -13,7 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{1F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.CouponAPI", "Mango.Services.CouponAPI\Mango.Services.CouponAPI.csproj", "{A94DDBD3-5691-4102-A87D-E5A0F4EFA733}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.AuthAPI", "Mango.Services.AuthAPI\Mango.Services.AuthAPI.csproj", "{BC5D0DCE-4F4D-41C0-8DDE-91737DBE8836}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.AuthAPI", "Mango.Services.AuthAPI\Mango.Services.AuthAPI.csproj", "{BC5D0DCE-4F4D-41C0-8DDE-91737DBE8836}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.ProductAPI", "Mango.Services.ProductAPI\Mango.Services.ProductAPI.csproj", "{1524A665-8DDB-42DE-9E2D-916F62E2AEC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{BC5D0DCE-4F4D-41C0-8DDE-91737DBE8836}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC5D0DCE-4F4D-41C0-8DDE-91737DBE8836}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC5D0DCE-4F4D-41C0-8DDE-91737DBE8836}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1524A665-8DDB-42DE-9E2D-916F62E2AEC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1524A665-8DDB-42DE-9E2D-916F62E2AEC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1524A665-8DDB-42DE-9E2D-916F62E2AEC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1524A665-8DDB-42DE-9E2D-916F62E2AEC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A94DDBD3-5691-4102-A87D-E5A0F4EFA733} = {1F77D194-DA95-45A9-B5D2-CD65D89EEFD3}
 		{BC5D0DCE-4F4D-41C0-8DDE-91737DBE8836} = {1F77D194-DA95-45A9-B5D2-CD65D89EEFD3}
+		{1524A665-8DDB-42DE-9E2D-916F62E2AEC8} = {1F77D194-DA95-45A9-B5D2-CD65D89EEFD3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CAB4EC63-5167-432B-B249-0FEA745D0005}
